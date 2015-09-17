@@ -1,0 +1,31 @@
+[ui]
+# Name data to appear in commits
+username = Amine Raji  <amine.raji.perso@gmail.com>
+ssh = ssh -C
+
+
+[hostfingerprints]
+bitbucket.org = 46:de:34:e7:9b:18:cd:7f:ae:fd:8b:e3:bc:f4:1a:5e:38:d7:ac:24
+
+[extensions]
+hgext.extdiff =
+hgext.record =
+hgext.mq =
+color =
+graphlog =
+hgext.churn =
+rebase =
+pager =
+progress =
+hgext.purge =
+
+
+[alias]
+# Takes a revision argument and shows the diff: hg show 1337
+#show = log --stat --color=always -vpr
+
+# Push the current branch only (don't push any other named branches)
+#nudge = push --rev .
+
+# What did I do today?
+today = !hg log --template '{rev} {desc|firstline|strip}\n' -r "sort(user('$(hg showconfig ui.username | sed 's/.*<\(.*\)>/\1/')') and date(-1), -date)"
