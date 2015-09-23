@@ -226,3 +226,94 @@ if !exists('g:airline_symbols')
   let g:airline_left_alt_sep = '▶'
   let g:airline_right_alt_sep = '◀'
   let g:airline_symbols.readonly = ''
+
+" Easy switching between the spell languages================================
+map <silent> <F7> "<Esc>:silent setlocal spell! spelllang=en<CR>"
+map <silent> <F6> "<Esc>:silent setlocal spell! spelllang=fr<CR>"
+
+" Set the autosave option
+let g:auto_save = 10
+
+set clipboard=unnamed
+" faster redrawing
+set ttyfast
+
+" code folding settings
+set foldmethod=syntax " fold based on indent
+set foldnestmax=10 " deepest fold is 10 levels
+set nofoldenable " don't fold by default
+set foldlevel=1
+
+" Searching
+set ignorecase " case insensitive searching
+set smartcase " case-sensitive if expresson contains a capital letter
+set hlsearch
+set incsearch " set incremental search, like modern browsers
+set nolazyredraw " don't redraw while executing macros
+
+set magic " Set magic on, for regex
+
+set showmatch " show matching braces
+set mat=2 " how many tenths of a second to blink
+set autoindent " automatically set indent of new line
+set smartindent
+
+set laststatus=2 " show the satus line all the time
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Functions
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+map <C-h> :call WinMove('h')<cr>
+map <C-j> :call WinMove('j')<cr>
+map <C-k> :call WinMove('k')<cr>
+map <C-l> :call WinMove('l')<cr>
+
+" Window movement shortcuts
+" move to the window in the direction shown, or create a new window
+function! WinMove(key)
+    let t:curwin = winnr()
+    exec "wincmd ".a:key
+    if (t:curwin == winnr())
+        if (match(a:key,'[jk]'))
+            wincmd v
+        else
+            wincmd s
+        endif
+        exec "wincmd ".a:key
+    endif
+endfunction
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Plugin settings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" close NERDTree after a file is opened
+let g:NERDTreeQuitOnOpen=0
+" show hidden files in NERDTree
+let NERDTreeShowHidden=1
+" Toggle NERDTree
+nmap <silent> <leader>k :NERDTreeToggle<cr>
+" expand to the path of the file in the current buffer
+nmap <silent> <leader>y :NERDTreeFind<cr>
+
+" map fuzzyfinder (CtrlP) plugin
+" nmap <silent> <leader>t :CtrlP<cr>
+nmap <silent> <leader>r :CtrlPBuffer<cr>
+let g:ctrlp_map='<leader>t'
+let g:ctrlp_dotfiles=1
+let g:ctrlp_working_path_mode = 'ra'
+
+" CtrlP ignore patterns
+let g:ctrlp_custom_ignore = {
+            \ 'dir': '\.git$\|node_modules$\|\.hg$\|\.svn$',
+            \ 'file': '\.exe$\|\.so$'
+            \ }
+
+" search the nearest ancestor that contains .git, .hg, .svn
+let g:ctrlp_working_path_mode = 2
+
+    Status API Training Shop Blog About Pricing 
+

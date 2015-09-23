@@ -71,6 +71,12 @@ Plugin 'tomtom/tlib_vim'
 " Plugin 'xolox/vim-session'
 " Plugin 'xolox/vim-misc'
 
+Plugin 'vim-scripts/vim-auto-save'
+Plugin 'benmills/vimux'
+
+
+
+
 
 call vundle#end()
 filetype on
@@ -82,7 +88,7 @@ filetype on
 " Color scheme
 syntax enable
 let g:solarized_termcolors=256
-let g:solarized_termtrans=1
+"let g:solarized_termtrans=1
 set background=dark
 colorscheme solarized
 
