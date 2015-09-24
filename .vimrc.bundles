@@ -77,7 +77,6 @@ Plugin 'benmills/vimux'
 
 
 
-
 call vundle#end()
 filetype on
 
