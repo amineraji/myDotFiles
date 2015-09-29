@@ -73,7 +73,9 @@ Plugin 'tomtom/tlib_vim'
 
 Plugin 'vim-scripts/vim-auto-save'
 Plugin 'benmills/vimux'
-
+Plugin 'klen/python-mode'
+Plugin 'lervag/vimtex'
+" Plugin 'vim-scripts/vim-latex'
 
 
 

@@ -129,6 +129,7 @@ command! -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
 nnoremap \ :Ag<SPACE>
 
 "Map Ctrl + S to save in any mode
+
 noremap <silent> <C-S>          :update<CR>
 vnoremap <silent> <C-S>         <C-C>:update<CR>
 inoremap <silent> <C-S>         <C-O>:update<CR>
@@ -232,7 +233,8 @@ map <silent> <F7> "<Esc>:silent setlocal spell! spelllang=en<CR>"
 map <silent> <F6> "<Esc>:silent setlocal spell! spelllang=fr<CR>"
 
 " Set the autosave option
-let g:auto_save = 10
+" let g:auto_save = 10
+
 
 set clipboard=unnamed
 " faster redrawing
@@ -246,7 +248,7 @@ set foldlevel=1
 
 " Searching
 set ignorecase " case insensitive searching
-set smartcase " case-sensitive if expresson contains a capital letter
+set smartcase " case-sensitive if expression contains a capital letter
 set hlsearch
 set incsearch " set incremental search, like modern browsers
 set nolazyredraw " don't redraw while executing macros
@@ -258,7 +260,7 @@ set mat=2 " how many tenths of a second to blink
 set autoindent " automatically set indent of new line
 set smartindent
 
-set laststatus=2 " show the satus line all the time
+set laststatus=2 " show the status line all the time
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -295,9 +297,9 @@ let g:NERDTreeQuitOnOpen=0
 " show hidden files in NERDTree
 let NERDTreeShowHidden=1
 " Toggle NERDTree
-nmap <silent> <leader>k :NERDTreeToggle<cr>
-" expand to the path of the file in the current buffer
-nmap <silent> <leader>y :NERDTreeFind<cr>
+" nmap <silent> <leader>k :NERDTreeToggle<cr>
+" " expand to the path of the file in the current buffer
+" nmap <silent> <leader>y :NERDTreeFind<cr>
 
 " map fuzzyfinder (CtrlP) plugin
 " nmap <silent> <leader>t :CtrlP<cr>
@@ -314,6 +316,4 @@ let g:ctrlp_custom_ignore = {
 
 " search the nearest ancestor that contains .git, .hg, .svn
 let g:ctrlp_working_path_mode = 2
-
-    Status API Training Shop Blog About Pricing 
 
