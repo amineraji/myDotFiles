@@ -68,8 +68,8 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 
 " Plugins to get sessions to auto-save
-" Plugin 'xolox/vim-session'
-" Plugin 'xolox/vim-misc'
+Plugin 'xolox/vim-session'
+Plugin 'xolox/vim-misc'
 
 Plugin 'vim-scripts/vim-auto-save'
 Plugin 'benmills/vimux'
