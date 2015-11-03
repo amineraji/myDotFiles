@@ -75,12 +75,13 @@ Plugin 'vim-scripts/vim-auto-save'
 Plugin 'benmills/vimux'
 Plugin 'klen/python-mode'
 Plugin 'lervag/vimtex'
-" Plugin 'vim-scripts/pydoc'
 Plugin 'http://github.com/sjl/gundo.vim.git'
 
 " Plugin 'vim-scripts/vim-latex'
-Plugin 'vim-scripts/vimlatex'
+" Plugin 'vim-scripts/vimlatex'
 
+" Python related plugins
+" Plugin 'vim-scripts/pydoc'
 " Plugin 'py.test'
 " Plugin 'TaskList.vim'
 " Plugin 'color-sampler-pack'
