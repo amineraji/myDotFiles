@@ -1,0 +1,500 @@
+hg ci -m "Added biometrics module description"
+hg mv biometrics_syllabus.rst biometrics
+ls biometrics/
+ls biomet
+ls biomet*
+rm -Rvf biometicsCourse
+ls biometrics/
+cd biometrics/
+pandoc -o biometrics_syllabus.pdf biometrics_syllabus.rst 
+open biometrics_syllabus.pdf 
+pandoc -o biometrics_syllabus.pdf biometrics_syllabus.rst 
+open biometrics_syllabus.pdf 
+pandoc -o biometrics_syllabus.pdf biometrics_syllabus.rst 
+open biometrics_syllabus.pdf 
+perview biometrics_syllabus.pdf 
+open ./
+rm biometrics_syllabus.pdf 
+pandoc -o biometrics_syllabus.pdf biometrics_syllabus.rst 
+open biometrics_syllabus.pdf 
+:q
+cd Dropbox/Repositories/Redaction/RedactionsDiversesDGSSI/
+cd biometrics
+pandoc -o biometrics_syllabus.pdf biometrics_syllabus.rst 
+cd Dropbox/Repositories/Codes/FlaskWebSite/FlaskApp/FlaskApp/source/
+mv cybersecurity-se-dev-process.txt cybersecurity-se-dev-process.rst
+mv index.txt index.rst
+mv intrusion-detection-system.txt intrusion-detection-system.rst
+mv malware-analysis-plateform.txt malware-analysis-plateform.rst
+mv myindex.txt myindex.rst
+mv public-key-infrastructure.txt public-key-infrastructure.rst
+mv strong-authentication-teensy.txt strong-authentication-teensy.rst
+mv test.txt test.rst
+mv threat-modeling.txt threat-modeling.rst
+mv underconstruction.txt underconstruction.rst
+cd ..
+make html
+mv build/html/* static/html/
+mv -rv build/html/* static/html/*
+mv -Rv build/html/* static/html/*
+cp -Rvf build/html/* static/html/*
+cp -Rvf build/html/* static/html/
+make html
+cp -Rvf build/html/* static/html/
+vimtutor 
+make html
+git revert source/_templates/header.html 
+git status
+git log
+git diff source/_templates/header.html 
+git revert
+git log
+git revert source/_templates/header.html 5fe8bf03601406f8f4d4f1d54912a1d62102818d
+git revert 5fe8bf03601406f8f4d4f1d54912a1d62102818d source/_templates/header.html 
+git status
+git checkout source/_templates/
+git checkout source/_templates/*
+git checkout source/_templates/header.html
+git checkout source/_templates
+git checkout
+git status
+git log
+ls -al
+cd ..
+git status
+ls -al
+cd ..
+cd FlaskWebSite/
+ls -al
+cd FlaskApp/
+ls -al
+cd ..
+git init
+git remote ssh://hg@bitbucket.org/araji/flask_website
+git remote add ssh://hg@bitbucket.org/araji/flask_website
+git remote add -m ssh://hg@bitbucket.org/araji/flask_website
+git remote add -m master ssh://hg@bitbucket.org/araji/flask_website
+git push ssh://hg@bitbucket.org/araji/flask_website
+git push --set-upstream ssh://hg@bitbucket.org/araji/flask_website master
+cd FlaskApp/
+make html
+cd FlaskApp/
+make html
+cp -Rvf build/html/* static/html/
+make html
+cp -Rvf build/html/* static/html/
+cd ..
+git status
+git add all
+git add --all
+git status
+git commit -m "first commit after fixing the header issue, Still the problem with the sphinx header overriding"
+git remote -v
+git remote add origin git@bitbucket.org:araji/myflaskwebsite.git
+git push -u origin --all # pushes up the repo and its refs for the first time
+git push -u origin --tags # pushes up any tags
+cd FlaskApp/FlaskApp/
+make html
+cp -Rvf build/html/* static/html/
+git status
+git diff static/html/strong-authentication-teensy.html 
+cd 
+rm -Rvf .vim/bundle/vim-auto-save
+cd -
+vi .vimrc .vimrc.bundles 
+git status
+cd .vim
+git status
+git pull
+git status
+git pull
+git push
+git pull
+vi .vimrc .vimrc.bundles 
+vi .vim/bundle/
+vi .vim/bundle/vim-latex/
+cd 
+cd Dropbox/Repositories/Redaction/RedactionsDiversesDGSSI/
+mkdir repportSeminaire2015
+mv repportSeminaire2015 rapportSeminaire2015
+cd rapportSeminaire2015/
+cp ~/Dropbox/C_Desktop/Rapport\ séminaire\ 2015/RapportSeminaire2015/Rapport_seminaire_v_27_09_15.rst ./
+cp ~/Desktop/Rapport\ du\ Séminaire\ IIV\ 2015\ v_24_09_15.docx ./
+git status
+cd ..
+git add rapportSeminaire2015/
+git status
+ls -al
+git status
+hg st
+hg add -v *.tex
+hg add -v *.rst
+hg add rapportSeminaire2015
+hg st
+hg ci -m "Added untracked files + Rapport du séminaire 2015 version finale"
+hg push
+hg remote ls
+hg remote -v
+vi .hg/hgrc 
+hg push
+hg log
+hg llog
+hg log --graph
+hg -h
+vi .hg/hgrc 
+mkdir projetRecherche
+mkdir RapportActiviteAvril2015
+mkdir RapportActiviteHPS
+hg mv ProjetRecherche* projetRecherche
+hg mv RapportActiviteAvril2015 rapportActiviteRecherche
+mv RapportActiviteAvril2015 rapportActiviteRecherche
+hg mv RapportActivite* rapportActiviteRecherche/
+ls rapportActiviteRecherche/
+rm -Rvf RapportActiviteHPS*
+ls rapportSeminaire2015/
+ls rapportActiviteRecherche/
+ls projetRecherche
+ls PlanAction2015/
+ls PresentationEtudeRecherche/
+hg st
+hg ci -m "did some clean up"
+hg push
+mkdir biometicsCourse
+vi biometrics_syllabus.rst
+cd Dropbox/C_Documents/cheatSheets/
+vim *.rst
+vim
+vi .tmux.conf
+mkdir -h
+madir --help
+mkdir .tmux
+cd .tmux
+cp ~/Desktop/theme.sh ./
+cd ..
+vi .tmux
+cd -
+cd Dropbox/Repositories/Codes/FlaskWebSite/FlaskApp/FlaskApp/source/
+vi intrusion-detection-system.txt 
+cd Dropbox/Repositories/Codes/FlaskWebSite/
+cd FlaskApp/FlaskApp/
+vi .
+cd Dropbox/Repositories/Codes/FlaskWebSite/
+cd FlaskApp/
+source flaskWebDev/bin/activate
+python ../run.py 
+cd Dropbox/C_Desktop/
+cd Rapport\ séminaire\ 2015/RapportSeminaire2015/
+cd ../../
+cd DGSSI/Rapport\ séminaire\ 2015/RapportSeminaire2015/
+vi Rapport_seminaire_v_22_09_15.rst 
+cd Dropbox/C_Desktop/DGSSI/Rapport\ séminaire\ 2015/RapportSeminaire2015/
+rm Rapport.docx 
+pandoc -o Rapport.docx Rapport_seminaire_v_22_09_15.rst 
+open ./
+cd ../../..
+cd ../C_Documents/cheatSheets/
+cd -
+cd DGSSI/Rapport\ séminaire\ 2015/RapportSeminaire2015/
+pandoc -o Rapport.docx Rapport_seminaire_v_22_09_15.rst 
+cd ../../
+cd ../
+cd Rapport\ séminaire\ 2015/RapportSeminaire2015/
+pandoc -o Rapport.docx Rapport_seminaire_v_27_09_15.rst 
+:q
+vi .tmux/dev.tmux.conf.symlink 
+vi .tmux/theme.sh 
+vi .tmux/dev.tmux.conf.symlink 
+vi .tmux
+source .tmux.conf
+iizeaz
+q
+Vq
+vi .tmux.conf
+killall tmux
+:q
+killall tmux
+vi .tmux/theme.sh 
+killall tmux
+vi .tmux/theme.sh 
+killall tmux
+vi .tmux.conf
+s
+git pull
+git rm Pictures
+git rm -r Pictures
+git status
+tmux new -s LearningTmuxVim
+tmux new -s pandoc
+tmux ls
+tmux a LearningTmuxVim
+tmux attach LearningTmuxVim
+tmux a -t LearningTmuxVim
+killall tmux
+tmux ls
+cp Desktop/dev.tmux.conf.symlink .tmux/
+source .tmux/dev.tmux.conf.symlink 
+vi .tmux/dev.tmux.conf.symlink 
+source .tmux/dev.tmux.conf.symlink 
+tmux .tmux/dev.tmux.conf.symlink 
+tmux -h
+man tmux
+tmux -f .tmux/dev.tmux.conf.symlink 
+tmux ls
+tmux a -t dev
+killall tmux
+tmux -f .tmux/dev.tmux.conf.symlink 
+tmux s
+tmux ls
+tmux a -t dev
+killall tmux 
+tmux -f .tmux/dev.tmux.conf.symlink 
+tmux a -t dev
+killall tmux 
+tmux -f .tmux/dev.tmux.conf.symlink 
+killall tmux
+tmux -f .tmux/dev.tmux.conf.symlink 
+tmux a -t dev
+killall tmux
+tmux -f .tmux/dev.tmux.conf.symlink 
+killall tmux
+tmux new -t dev
+tmux new 
+tmux new
+tmux -f .tmux/dev.tmux.conf.symlink 
+tmux a -t dev
+tmux -f .tmux/dev.tmux.conf.symlink 
+killall tmux
+tmux new -t writing
+tmux new -s writing
+tmux new -s webdev
+cd Dropbox/Repositories/Codes/FlaskWebSite/FlaskApp/FlaskApp/
+source flaskWebDev/bin/activate
+python ../run.py 
+cd Dropbox/Repositories/Codes/FlaskWebSite/FlaskApp/FlaskApp/
+source flaskWebDev/bin/activate
+vi .
+cd Dropbox/Repositories/Redaction/RedactionsDiversesDGSSI/biometrics
+vi biometrics_syllabus.rst 
+cd Dropbox/C_Documents/cheatSheets/
+vi *.rst
+~
+$
+~
+$
+~
+$
+~
+$
+~
+$
+~
+$
+~
+$
+brew install macvim --override-system-vim
+vim --version
+vim
+cd Dropbox/Repositories/Redaction/RedactionsDiversesDGSSI/
+cd biometrics
+vi biometrics_syllabus.rst 
+pandoc -o biometrics_syllabus.docx biometrics_syllabus.rst 
+open ./
+ping 192.168.1.1
+tracert 192.168.1.1
+traceroute 192.168.1.1
+traceroute -v 192.168.1.1
+traceroute -f 192.168.1.1
+traceroute -s 192.168.1.1
+traceroute 192.168.1.1
+ipconfig
+ifconfig
+ping 192.168.1.1
+ping www.google.com
+vi .tmux.conf
+cd Dropbox/Repositories/Redaction/RedactionsDiversesDGSSI/PresentationEtudeRecherche/
+pdflatex PresentationEtudeRecherche.tex
+open PresentationEtudeRecherche.pdf 
+pdflatex PresentationEtudeRecherche.tex
+open PresentationEtudeRecherche.pdf 
+vi .vimrc.bundles 
+/Users/amine/Downloads/Version\ Control\ With\ Git\ 2nd\ Edition\ V413HAV/Version\ Control\ With\ Git\ 2nd\ Edition\ V413HAV.epub
+/Users/amine/Downloads/Version\ Control\ With\ Git\ 2nd\ Edition\ V413HAV/Version\ Control\ With\ Git\ 2nd\ Edition\ V413HAV.pdf
+cd Dropbox/Repositories/Codes/FlaskWebSite/FlaskApp/FlaskApp/
+vi .
+ 162 # maximizing and restoring windows
+~
+$
+~
+$
+~
+$
+~
+$
+~
+$
+~
+$
+~
+$
+~
+$
+cd Dropbox/Repositories/Codes/FlaskWebSite/FlaskApp/FlaskApp/
+source flaskWebDev/bin/activate
+python ../run.py 
+vi .tmux/dev.tmux.conf.symlink 
+tmux -f .tmux/dev.tmux.conf.symlink 
+tmux ls
+killall tmux
+vim
+[D[C[D
+:q
+vim .vimrc
+tmux -f .tmux/dev.tmux.conf.symlink 
+cd Dropbox/Repositories/Redaction/RedactionsDiverses
+mkdir presentations/reunionTravailANSSI_oct_15
+cp ../RedactionsDiversesDGSSI/presentations/reunion_travail_anssi_oct_2015.tex presentations/reunionTravailANSSI_oct_15/
+rm -rvf ../RedactionsDiversesDGSSI
+cd presentations/reunionTravailANSSI_oct_15/
+latexmk reunion_travail_anssi_oct_2015.tex 
+pdflatex reunion_travail_anssi_oct_2015.
+pdflatex reunion_travail_anssi_oct_2015.tex 
+open reunion_travail_anssi_oct_2015.pdf 
+pdflatex reunion_travail_anssi_oct_2015.tex 
+open reunion_travail_anssi_oct_2015.pdf 
+pdflatex reunion_travail_anssi_oct_2015.tex 
+open reunion_travail_anssi_oct_2015.pdf 
+pdflatex reunion_travail_anssi_oct_2015.tex 
+cd Dropbox/Repositories/Redaction/RedactionsDiverses/
+cd presentations/
+ls styles/
+ls -al styles/
+ls ls
+ls PresentationEtudeRecherche/
+ls -al PresentationEtudeRecherche/pdfs/
+mkdir figs
+cp PresentationEtudeRecherche/pdfs/logo.pdf figs/
+ls figs/
+mv figs/ pdfs/
+mv pdfs figs
+ls figs/
+open figs/logo.pdf 
+ls figs/
+hg st
+hg add **.tex **.sty 
+hg add *.tex *.sty 
+hg add **/*.sty
+hg st
+hg -v add **/*.tex
+hg ignore 
+man hg
+hg -v add **/*.cls
+hg st
+cd ..
+hg -v add **/*.cls
+hg -v add **/*.tex
+hg add **/*.sty
+hg st
+hg ci -m "added a beamer template for future presentations"
+hg push
+cd presentations/reunionTravailANSSI_oct_15/
+cd ..
+mkdir reunionTravailANSSI_oct_15/figs
+cp figs/logo.pdf reunionTravailANSSI_oct_15/figs/
+open figs/logo.pdf 
+cd ..
+mkdir reunions
+mv 15_10_12_reunion_travail_a_ANSSI* reunions/
+cd reunions/
+rm 15_10_12_reunion_travail_a_ANSSI^.rst 
+man pandoc
+vi 15_10_12_reunion_travail_a_ANSSI.rst 
+pandoc -o reunion.docx 15_10_12_reunion_travail_a_ANSSI.rst 
+open reunion.docx 
+pandoc -o reunion.docx 15_10_12_reunion_travail_a_ANSSI.rst 
+open reunion.docx 
+pandoc -o reunion.docx 15_10_12_reunion_travail_a_ANSSI.rst 
+open reunion.docx 
+rm reunion.docx 
+git status
+hg st
+hg add **.rst
+hg st
+hg add **.tex
+hg add **/*.tex
+hg add **/**.tex
+hg add **/*.tex
+hg ci -m "Added the report of the France workshop"
+hg push
+cd 
+cd Dropbox/vimwiki
+rm Le\ vieux\ qui\ ne\ voulais\ pas\ fêter\ son\ anniversaire.wiki 
+vi Le\ vieux\ qui\ ne\ voulais\ pas\ feter\ son\ anniversaire.wiki 
+git status
+git status
+git add .vim-spell-en.utf-8.add*
+git status
+git add .tmux.conf
+git status
+git add .vim
+git status
+git add .tmux
+git status
+git add .vim
+git status
+git commit -m "Added untracker vim and tmux files"
+git push
+git status
+git diff .vim
+git push
+cd Dropbox/vimwiki
+git status
+gti add Git\ for\ teams\:\ A\ user\ centred\ approach\ to\ creating...wiki TODO\ list.wiki 
+git -v add Git\ for\ teams\:\ A\ user\ centred\ approach\ to\ creating...wiki TODO\ list.wiki 
+git add Git\ for\ teams\:\ A\ user\ centred\ approach\ to\ creating...wiki TODO\ list.wiki 
+git status
+git commit -m "Added the Git book review and updated the todo list"
+git push
+cd 
+cd Dropbox/Repositories/Redaction/
+ls -al 
+cd RedactionsDiverses/
+hg st
+hg add reunions/*
+hg add emails/*
+hg st
+hg commit -m "Added emails and meeting reports"
+hg push
+hg st
+hg addremove
+hg st
+hg commit -m "done an addremove on the repository"
+hg push
+hg st
+hg diff reunions/15_10_12_reunion_travail_a_ANSSI.rst 
+hg commit -m "minor modification"
+hg push
+brew update
+brew doctor
+cd Dropbox/Repositories/Codes/FlaskWebSite/FlaskApp/FlaskApp/
+vi __init__.py
+cd .vim/bundle/
+cd vim-auto-save/
+vi README
+vi plugin/AutoSave.vim 
+cd ..
+rm -Rvf vim-auto-save
+git instaweb
+brew install lighttpd
+git instaweb
+cd 
+cd Dropbox/vimwiki/
+git instaweb
+ps -ls | grep light
+ps -l | grep light
+ps -l | grep lighttpd
+ps -al | grep lighttpd
+git branch --list
+git branch --all
+git branch --remote
+git instaweb
+git branch --remoteman tmux 
