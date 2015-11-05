@@ -205,7 +205,7 @@ endfunction
 let g:Powerline_symbols = 'fancy'
 let g:airline_powerline_fonts = 1
 " set guifont=Liberation\ Mono\ for\ Powerline\ 10
-set guifont=Ubuntu\ Mono\ 13
+" set guifont=Ubuntu\ Mono\ 13
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
   endif
@@ -317,4 +317,47 @@ let g:ctrlp_custom_ignore = {
 
 " search the nearest ancestor that contains .git, .hg, .svn
 let g:ctrlp_working_path_mode = 2
+
+" Here is where I started making vim mine
+" Doing cool stuff with the vim script
+
+" Correcting the spelling of the just-typed misspelled word
+" nnoremap <leader>ss :normal! mm[s1z=``m <cr>
+
+" Now doing it better with a function as in
+" https://github.com/christoomey/your-first-vim-plug-in
+
+function! FixLastSpellingError()
+  normal! mm[s1z=`m"
+endfunction
+
+nnoremap <leader>sp : call FixLastSpellingError()<cr>
+
+" putting the item of a list on the top
+function! MoveEm(position)
+  let saved_cursor = getpos(".")
+  let previous_blank_line = search('^$', 'bn')
+  let target_line = previous_blank_line + a:position - 1
+  execute 'move ' . target_line
+  call setpos('.', saved_cursor)
+endfunction
+
+for position in range(1, 9)
+  execute 'nnoremap m' . position . ' :call MoveEm(' . position . ')<cr>'
+endfor
+
+" Adding useful stuff for the markdown titles
+function! UnderlineHeading(level)
+  if a:level == 1
+    normal! yypVr=
+  elseif a:level == 2
+    normal! yypVr-
+  else
+    normal! yypVr^
+  endif
+endfunction
+
+nnoremap <leader>u1 :call UnderlineHeading(1)<cr>
+nnoremap <leader>u2 :call UnderlineHeading(2)<cr>
+nnoremap <leader>u3 :call UnderlineHeading(3)<cr>
 

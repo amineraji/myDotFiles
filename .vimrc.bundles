@@ -77,6 +77,9 @@ Plugin 'klen/python-mode'
 Plugin 'lervag/vimtex'
 Plugin 'http://github.com/sjl/gundo.vim.git'
 
+" Plugin 'christoomey/vim-titlecase'
+
+
 " Plugin 'vim-scripts/vim-latex'
 " Plugin 'vim-scripts/vimlatex'
 
