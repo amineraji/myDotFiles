@@ -104,7 +104,7 @@ Plugin 'http://github.com/sjl/gundo.vim.git'
 " Plugin 'vim-autoclose'
 " Plugin 'vim-makegreen'
 " Plugin 'vim-powerline'
-" Plugin 'vim-virtualenv'
+Plugin 'vim-virtualenv'
 " Plugin 'vundle.vim'
 
 
