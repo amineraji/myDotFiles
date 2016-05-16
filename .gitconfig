@@ -1,0 +1,45 @@
+[user]
+  name = Amine Raji
+  email = amine0023@gmail.com
+[core]
+  editor = vim
+  whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+  excludesfile = ~/.gitignore
+[color]
+  ui = auto
+[color "branch"]
+  current = yellow bold
+  local = green bold
+  remote = cyan bold
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
+[color "status"]
+  added = green bold
+  changed = yellow bold
+  untracked = red bold
+[diff]
+  tool = vimdiff
+[difftool]
+  prompt = false
+[github]
+  user = 
+  token = token
+[gitflow "prefix"]
+  feature = feature-
+  release = release-
+  hotfix = hotfix-
+  support = support-
+  versiontag = v
+[alias]
+  co = checkout
+  ci = commit
+  br = branch
+# --- LOGS ---
+  ll   = "log --pretty=oneline --abbrev-commit"
+  lg   = log --pretty=oneline --abbrev-commit --graph --decorate --date=relative
+  lgt  = log --graph --pretty=format:'%Cred%h%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  lgtt = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative

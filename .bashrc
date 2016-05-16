@@ -46,3 +46,8 @@ export LSCOLORS=gxfxcxdxbxegedabagacadd
 # Tell grep to highlight matches
 export GREP_OPTIONS='--color=auto'
 #source "`brew --prefix grc`/etc/grc.bashrc"
+
+# Virtualenvwrapper setup
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+source /usr/local/bin/virtualenvwrapper.sh
