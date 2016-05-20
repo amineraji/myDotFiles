@@ -38,6 +38,7 @@
   co = checkout
   ci = commit
   br = branch
+  st = status
 # --- LOGS ---
   ll   = "log --pretty=oneline --abbrev-commit"
   lg   = log --pretty=oneline --abbrev-commit --graph --decorate --date=relative

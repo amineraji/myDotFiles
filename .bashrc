@@ -2,10 +2,6 @@
       . /opt/local/etc/bash_completion
  fi
 
-##
-# Your previous /Users/amine/.bash_profile file was backed up as /Users/amine/.bash_profile.macports-saved_2012-05-11_at_10:43:20
-##
-
 # MacPorts Installer addition on 2012-05-11_at_10:43:20: adding an appropriate PATH variable for use with MacPorts.
 #export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:/opt/X11/bin:/usr/texbin
 
@@ -47,7 +43,5 @@ export LSCOLORS=gxfxcxdxbxegedabagacadd
 export GREP_OPTIONS='--color=auto'
 #source "`brew --prefix grc`/etc/grc.bashrc"
 
-# Virtualenvwrapper setup
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Devel
-# source /usr/local/bin/virtualenvwrapper.sh
+
+
