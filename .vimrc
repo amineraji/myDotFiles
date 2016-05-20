@@ -361,30 +361,6 @@ nnoremap <leader>u1 :call UnderlineHeading(1)<cr>
 nnoremap <leader>u2 :call UnderlineHeading(2)<cr>
 nnoremap <leader>u3 :call UnderlineHeading(3)<cr>
 
-<<<<<<< HEAD
-" ------------------------------------------------------------------
-" Solarized Colorscheme Config
-" ------------------------------------------------------------------
-" let g:solarized_termcolors=256    "default value is 16
-" syntax enable
-" set background=dark
-" colorscheme solarized
-" ------------------------------------------------------------------
-
-" The following items are available options, but do not need to be
-" included in your .vimrc as they are currently set to their defaults.
-
-" let g:solarized_termtrans=0
-" let g:solarized_degrade=1
-" let g:solarized_bold=1
-" let g:solarized_underline=1
-" let g:solarized_italic=1
-" let g:solarized_contrast="high"
-" let g:solarized_visibility="normal"
-" let g:solarized_diffmode="normal"
-" let g:solarized_hitrail=0
-" let g:solarized_menu=1
-
 " Nerdtree filters
 let NERDTreeIgnore=['\.ropeproject', '.cach*', '*.pyc', '__pycache__', '\.git', '.aux', '.idx', '.log','.synctex.gz', '.tmproj', '.toc']
 
@@ -397,6 +373,3 @@ let g:pymode_run_bind = "<C-S-e>"
 
 " Override view python doc key shortcut to Ctrl-Shift-d
 let g:pymode_doc_bind = "<C-S-d>"
-
-=======
->>>>>>> b5132da7412d33a829d2f4d48c3ffe35a6b2ccbb
