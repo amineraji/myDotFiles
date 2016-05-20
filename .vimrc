@@ -361,6 +361,7 @@ nnoremap <leader>u1 :call UnderlineHeading(1)<cr>
 nnoremap <leader>u2 :call UnderlineHeading(2)<cr>
 nnoremap <leader>u3 :call UnderlineHeading(3)<cr>
 
+<<<<<<< HEAD
 " ------------------------------------------------------------------
 " Solarized Colorscheme Config
 " ------------------------------------------------------------------
@@ -397,3 +398,5 @@ let g:pymode_run_bind = "<C-S-e>"
 " Override view python doc key shortcut to Ctrl-Shift-d
 let g:pymode_doc_bind = "<C-S-d>"
 
+=======
+>>>>>>> b5132da7412d33a829d2f4d48c3ffe35a6b2ccbb

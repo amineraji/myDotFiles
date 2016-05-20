@@ -28,22 +28,22 @@ Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 """ Highlighting, syntax, etc for various Languages
 "
-" Plugin 'Slava/vim-spacebars'
-" Plugin 'groenewege/vim-less'
-" Plugin 'kchmck/vim-coffee-script'
+Plugin 'Slava/vim-spacebars'
+Plugin 'groenewege/vim-less'
+Plugin 'kchmck/vim-coffee-script'
   " Plugin 'vim-ruby/vim-ruby'
   " Plugin 'tpope/vim-endwise'
 
 
   " TODO: Fix whatever issue is causing error here
   " Plugin 'marijnh/tern_for_vim'
-  " Plugin 'lfilho/cosco.vim' "Adds a ; at the end of a line
+  Plugin 'lfilho/cosco.vim' "Adds a ; at the end of a line
 
 """ Theme / Pretty stuff
 "
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline' "Awesome looking meta at bottom
-" Plugin 'majutsushi/tagbar'
+Plugin 'majutsushi/tagbar'
 
 """ Extras that I find useful
 "
@@ -68,7 +68,7 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 
 " Plugins to get sessions to auto-save
-" Plugin 'xolox/vim-session'
+Plugin 'xolox/vim-session'
 Plugin 'xolox/vim-misc'
 
 Plugin 'vim-scripts/vim-auto-save'
@@ -90,12 +90,14 @@ Plugin 'http://github.com/sjl/gundo.vim.git'
 " Plugin 'colour-sampler-pack'
 " Plugin 'conque.vim'
 " Plugin 'gundo'
-" Plugin 'davidhalter/jedi-vim'
+Plugin 'klen/python-mode'
+Plugin 'pep8'
+" Plugin 'jedi-vim'
 " Plugin 'lusty'
 " Plugin 'makegreen'
 " Plugin 'nerdcommenter'
-Plugin 'klen/python-mode'
-Plugin 'pep8'
+" Plugin 'pathogen'
+" Plugin 'pep8'
 " Plugin 'py.test'
 " Plugin 'pydoc'
 " Plugin 'pytest.vim'
@@ -121,6 +123,7 @@ filetype on
 " "let g:solarized_termtrans=1
 " set background=dark
 " colorscheme solarized
+" Color scheme
 
 "Allow moving around between Tmux windows
 nnoremap <silent> <C-h> :TmuxNavigateLeft<cr>
