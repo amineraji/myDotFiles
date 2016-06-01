@@ -1,3 +1,6 @@
 *~
 .DS_Store
 FlaskApp/FlaskApp/flaskWebDev
+*.aux
+*.fls
+*.synctex.gz

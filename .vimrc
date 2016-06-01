@@ -373,3 +373,6 @@ let g:pymode_run_bind = "<C-S-e>"
 
 " Override view python doc key shortcut to Ctrl-Shift-d
 let g:pymode_doc_bind = "<C-S-d>"
+
+" Override breakpoint command
+let g:pymode_breakpoint_cmd = 'import ipdb; ipdb.set_trace()  # XXX BREAKPOINT'

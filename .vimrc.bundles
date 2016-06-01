@@ -75,6 +75,7 @@ Plugin 'vim-scripts/vim-auto-save'
 Plugin 'benmills/vimux'
 Plugin 'lervag/vimtex'
 Plugin 'http://github.com/sjl/gundo.vim.git'
+Plugin 'Rykka/riv.vim' "Writing better rst files
 
 " Plugin 'christoomey/vim-titlecase'
 
