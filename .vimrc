@@ -361,18 +361,11 @@ nnoremap <leader>u1 :call UnderlineHeading(1)<cr>
 nnoremap <leader>u2 :call UnderlineHeading(2)<cr>
 nnoremap <leader>u3 :call UnderlineHeading(3)<cr>
 
-" Nerdtree filters
-let NERDTreeIgnore=['\.ropeproject', '.cach*', '*.pyc', '__pycache__', '\.git', '.aux', '.idx', '.log','.synctex.gz', '.tmproj', '.toc']
+" Setting virutalenv directory and options
+let g:virtualenv_directory = '~/Dropbox/C_Desktop/virtualEnvs'
 
-" Customization of python-mode plugin bindings
-" Override go-to.definition key shortcut to Ctrl-]
-let g:pymode_rope_goto_definition_bind = "<leader>pr"
+let g:pymode_rope_rename_bind = '<leader>pr'
 
-" Override run current python file key shortcut to Ctrl-Shift-e
-let g:pymode_run_bind = "<C-S-e>"
+"NERDTree filter settings
+let NERDTreeIgnore=['__pycache__', '\.ropeproject', '\.git']
 
-" Override view python doc key shortcut to Ctrl-Shift-d
-let g:pymode_doc_bind = "<C-S-d>"
-
-" Override breakpoint command
-let g:pymode_breakpoint_cmd = 'import ipdb; ipdb.set_trace()  # XXX BREAKPOINT'

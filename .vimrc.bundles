@@ -41,7 +41,7 @@ Plugin 'kchmck/vim-coffee-script'
 
 """ Theme / Pretty stuff
 "
-Plugin 'altercation/vim-colors-solarized'
+" Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline' "Awesome looking meta at bottom
 Plugin 'majutsushi/tagbar'
 
@@ -73,10 +73,10 @@ Plugin 'xolox/vim-misc'
 
 Plugin 'vim-scripts/vim-auto-save'
 Plugin 'benmills/vimux'
+Plugin 'klen/python-mode'
 Plugin 'lervag/vimtex'
 Plugin 'http://github.com/sjl/gundo.vim.git'
-Plugin 'Rykka/riv.vim' "Writing better rst files
-
+Plugin 'Rykka/riv.vim'
 " Plugin 'christoomey/vim-titlecase'
 
 
@@ -91,8 +91,6 @@ Plugin 'Rykka/riv.vim' "Writing better rst files
 " Plugin 'colour-sampler-pack'
 " Plugin 'conque.vim'
 " Plugin 'gundo'
-Plugin 'klen/python-mode'
-Plugin 'pep8'
 " Plugin 'jedi-vim'
 " Plugin 'lusty'
 " Plugin 'makegreen'
@@ -108,7 +106,7 @@ Plugin 'pep8'
 " Plugin 'vim-powerline'
 " Plugin 'vim-virtualenv'
 Plugin 'jmcantrell/vim-virtualenv'
-" Plugin 'vundle.vim'
+
 
 
 call vundle#end()
@@ -118,13 +116,12 @@ filetype on
 """ PLUGIN RELATED TWEAKS
 "
 
-" " Color scheme
-" syntax enable
+" Color scheme
+syntax enable
 " let g:solarized_termcolors=256
 " "let g:solarized_termtrans=1
 " set background=dark
 " colorscheme solarized
-" Color scheme
 
 "Allow moving around between Tmux windows
 nnoremap <silent> <C-h> :TmuxNavigateLeft<cr>
