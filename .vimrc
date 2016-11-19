@@ -363,6 +363,8 @@ nnoremap <leader>u3 :call UnderlineHeading(3)<cr>
 
 " Nerdtree filters
 let NERDTreeIgnore=['\.ropeproject', '.cach*', '*.pyc', '__pycache__', '\.git', '.aux', '.idx', '.log','.synctex.gz', '.tmproj', '.toc']
+" filters for latex
+let NERDTreeIgnore += ['.nav', '.out', '.snm', '.DS_Store', '.fls', '.fdb_latexmk*']
 
 " Customization of python-mode plugin bindings
 " Override go-to.definition key shortcut to Ctrl-]
@@ -376,3 +378,8 @@ let g:pymode_doc_bind = "<C-S-d>"
 
 " Override breakpoint command
 let g:pymode_breakpoint_cmd = 'import ipdb; ipdb.set_trace()  # XXX BREAKPOINT'
+
+
+" Color and font default settings
+colors desert
+set guifont=consolas:12

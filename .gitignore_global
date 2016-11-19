@@ -4,3 +4,4 @@ FlaskApp/FlaskApp/flaskWebDev
 *.aux
 *.fls
 *.synctex.gz
+.ropeproject*
