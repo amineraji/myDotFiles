@@ -44,6 +44,7 @@ heroku
 webapp
 newstrends
 Procfile
+<<<<<<< HEAD
 vidéosurveillance
 cybersécurité
 cyberattaques
@@ -59,3 +60,11 @@ AFRICOM
 NESA
 Daech
 openssl
+=======
+cybersécurité
+cyberattaques
+DGSSI
+DNSSI
+Computing
+Cloud
+>>>>>>> c7ab5baf34c2164fbc32acf46225d006fbb33da9

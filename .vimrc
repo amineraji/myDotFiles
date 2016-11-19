@@ -361,17 +361,19 @@ nnoremap <leader>u1 :call UnderlineHeading(1)<cr>
 nnoremap <leader>u2 :call UnderlineHeading(2)<cr>
 nnoremap <leader>u3 :call UnderlineHeading(3)<cr>
 
+<<<<<<< HEAD
 " Nerdtree filters
 let NERDTreeIgnore=['\.ropeproject', '.cach*', '*.pyc', '__pycache__', '\.git', '.aux', '.idx', '.log','.synctex.gz', '.tmproj', '.toc']
 " filters for latex
 let NERDTreeIgnore += ['.nav', '.out', '.snm', '.DS_Store', '.fls', '.fdb_latexmk*']
 
-" Customization of python-mode plugin bindings
-" Override go-to.definition key shortcut to Ctrl-]
-let g:pymode_rope_goto_definition_bind = "<leader>pr"
+" Setting virutalenv directory and options
+let g:virtualenv_directory = '~/Dropbox/C_Desktop/virtualEnvs'
 
-" Override run current python file key shortcut to Ctrl-Shift-e
-let g:pymode_run_bind = "<C-S-e>"
+let g:pymode_rope_rename_bind = '<leader>pr'
+
+"NERDTree filter settings
+let NERDTreeIgnore=['__pycache__', '\.ropeproject', '\.git']
 
 " Override view python doc key shortcut to Ctrl-Shift-d
 let g:pymode_doc_bind = "<C-S-d>"
