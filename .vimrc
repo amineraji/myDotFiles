@@ -361,7 +361,6 @@ nnoremap <leader>u1 :call UnderlineHeading(1)<cr>
 nnoremap <leader>u2 :call UnderlineHeading(2)<cr>
 nnoremap <leader>u3 :call UnderlineHeading(3)<cr>
 
-<<<<<<< HEAD
 " Nerdtree filters
 let NERDTreeIgnore=['\.ropeproject', '.cach*', '*.pyc', '__pycache__', '\.git', '.aux', '.idx', '.log','.synctex.gz', '.tmproj', '.toc']
 " filters for latex
