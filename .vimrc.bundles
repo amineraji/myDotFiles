@@ -109,6 +109,10 @@ Plugin 'Rykka/riv.vim'
 " Plugin 'vim-virtualenv'
 Plugin 'jmcantrell/vim-virtualenv'
 
+" Javascript pluginins
+" Indentation, concealing...
+Plugin 'pangloss/vim-javascript'
+Plugin 'sheerun/vim-polyglot'
 
 
 call vundle#end()
