@@ -400,4 +400,4 @@ let g:javascript_conceal_noarg_arrow_function = "🞅"
 let g:javascript_conceal_underscore_arrow_function = "🞅"
 
 let g:javascript_plugin_jsdoc = 1
-set conceallevel=1
+set conceallevel=0
