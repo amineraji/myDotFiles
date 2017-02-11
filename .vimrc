@@ -401,3 +401,10 @@ let g:javascript_conceal_underscore_arrow_function = "🞅"
 
 let g:javascript_plugin_jsdoc = 1
 set conceallevel=0
+
+" Vim Django settings
+autocmd FileType python set sw=4
+autocmd FileType python set ts=4
+autocmd FileType python set sts=4
+
+filetype on

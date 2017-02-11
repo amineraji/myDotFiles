@@ -1,0 +1,11 @@
+# The following lines were added by compinstall
+
+zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
+zstyle ':completion:*' list-colors ''
+zstyle ':completion:*' list-prompt texconfig-sysq
+zstyle ':completion:*' matcher-list ''
+zstyle :compinstall filename '/Users/amine/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall

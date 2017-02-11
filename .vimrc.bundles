@@ -105,7 +105,6 @@ Plugin 'Rykka/riv.vim'
 " Plugin 'scrollColors'
 " Plugin 'vim-autoclose'
 " Plugin 'vim-makegreen'
-" Plugin 'vim-powerline'
 " Plugin 'vim-virtualenv'
 Plugin 'jmcantrell/vim-virtualenv'
 
@@ -116,6 +115,8 @@ Plugin 'sheerun/vim-polyglot'
 Plugin 'heavenshell/vim-jsdoc'
 Plugin 'othree/jspc.vim'
 
+" Django plugins
+" Plugin 'vim-scripts/django'
 call vundle#end()
 filetype on
 
