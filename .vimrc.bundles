@@ -46,6 +46,7 @@ Plugin 'kchmck/vim-coffee-script'
 " Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline' "Awesome looking meta at bottom
 Plugin 'majutsushi/tagbar'
+Plugin 'shougo/vimproc'
 
 """ Extras that I find useful
 "
@@ -114,6 +115,10 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'heavenshell/vim-jsdoc'
 Plugin 'othree/jspc.vim'
+
+" Typescript/angular plugins
+Plugin 'leafgarland/typescript-vim'
+Plugin 'quramy/tsuquyomi'
 
 " Django plugins
 " Plugin 'vim-scripts/django'

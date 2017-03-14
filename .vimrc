@@ -408,3 +408,8 @@ autocmd FileType python set ts=4
 autocmd FileType python set sts=4
 
 filetype on
+
+" Vim wiki diary customizations
+" Colorization of the headers
+let g:vimwiki_hl_headers = 1
+let g:vimwiki_hl_cb_checked = 1
