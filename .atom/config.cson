@@ -1,0 +1,43 @@
+"*":
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui":
+      autoVisibility: true
+  "autocomplete-python":
+    caseInsensitiveCompletion: false
+    useKite: false
+  "bottom-dock":
+    startOpen: true
+  core:
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "vim-surround"
+      "atom-ide-ui"
+      "atom-live-server"
+      "bottom-dock"
+    ]
+    fileSystemWatcher: "atom"
+    telemetryConsent: "no"
+  editor:
+    showIndentGuide: true
+    softWrap: true
+  "exception-reporting":
+    userId: "1c5e1838-53ff-488c-b578-87bcd24caadb"
+  linter:
+    lintPreviewTabs: false
+  "linter-flake8": {}
+  "linter-ui-default":
+    panelHeight: 119
+    showPanel: true
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "python-autopep8":
+    formatOnSave: true
+  "seti-ui":
+    compactView: true
+    displayIgnored: false
+  "vim-mode-plus":
+    notifiedCoffeeScriptNoLongerSupportedToExtendVMP: true
+  welcome:
+    showOnStartup: false
